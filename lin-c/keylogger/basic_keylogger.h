@@ -25,6 +25,7 @@
 #include <sys/types.h>
 #include <time.h>
 #include <unistd.h>
+#include <signal.h>
 
 /*
 //
@@ -32,4 +33,7 @@
 //
 */
 
-#include "utils.c"
+#include "utils/logger.c"
+#include "utils/helpers.c"
+#include "utils/keyboard.c"
+#include "utils/daemonize.c"
